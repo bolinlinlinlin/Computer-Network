@@ -7,8 +7,10 @@
 ### 模擬R1 e0/1斷線
 - R1(config-if)#shut
 - R1(config-if)#do ping 2.2.2.2 source 1.1.1.1 repeat 100000
+
 ![1026wait_rip](/img/1026wait_rip.jpg)
-可能需要2~3分鐘才會連線
+
+   可能需要2~3分鐘才會連線
 ### 使用EIGRP較快
 ### 設置
 ![1026eigrp](/img/1026eigrp.jpg)
