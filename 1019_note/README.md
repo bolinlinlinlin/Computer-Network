@@ -25,7 +25,7 @@
 ![show_ip_route](/img/show_ip_route.jpg)
 ### RIP自動匯總-連續網路合併
 ![R2_loopback](/img/R2_loopback.jpg)
-- 設定加上no auto-summary取消自動匯總
+### 設定加上no auto-summary取消自動匯總
 
 ![no_auto_summary](/img/no_auto_summary.jpg)
 ![no_auto_summary_show_ip_route](/img/no_auto_summary_show_ip_route.jpg)
