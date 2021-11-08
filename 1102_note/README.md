@@ -39,3 +39,5 @@
 
 - R2 ping
 ![r2_ping](/img/r2_ping.jpg)
+### Authentication
+- 資料：[EIGRP 增強型內部網關路由協定 - Jan Ho 的網絡世界](https://www.jannet.hk/enhanced-interior-gateway-routing-protocol-eigrp-zh-hant/#Authentication)
