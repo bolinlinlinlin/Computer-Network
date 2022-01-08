@@ -13,6 +13,8 @@
 ![6](/img/20211123-6.jpg)
 ### 延伸環境
 ![7](/img/20211123-7.jpg)
+### VLAN 802.1q
+![24](/img/20211123-24.png)
 ### ping 192.168.0.2 並無802.1q (對於native vlan來說,不須設定access即可使用)
 ![8](/img/20211123-8.jpg)
 ### 設定 SW1 native vlan 改為10
@@ -27,9 +29,11 @@
 ## VTP (vlan trunking protocol) 這是思科私有的技術,用於實現對於vlan的全局管理(創建,刪除,修改)
 
 
-### vtp mode 能創建,刪除,修改vlan
-client 不能創建,刪除,修改vlan,但能學習轉發
-transparent 能創建,刪除,修改vlan,不能學習轉發 
+vtp mode: 能創建,刪除,修改vlan
+
+client: 不能創建,刪除,修改vlan,但能學習轉發
+
+transparent: 能創建,刪除,修改vlan,不能學習轉發 
 - 資料：[VTP 虛擬區域網絡中繼協定 - Jan Ho 的網絡世界](https://www.jannet.hk/vlan-trunking-protocol-vtp-zh-hant/)
 
 ## 上課練習2
@@ -43,7 +47,19 @@ transparent 能創建,刪除,修改vlan,不能學習轉發
 ![16](/img/20211123-16.jpg)
 ### SW2 設定
 ![17](/img/20211123-17.jpg)
-### 在 SW1 創建 vlan
+### 在 SW1 創建 vlan(server)
 ![18](/img/20211123-18.jpg)
-### SW2 也會出現 vlan ,但要創建 vlan 是不行的
+### SW2 也會出現 vlan ,但要創建 vlan 是不行的(client)
 ![19](/img/20211123-19.jpg)
+## 上課練習3
+### 環境
+![20](/img/20211123-20.jpg)
+### 設定 SW2 為 transparent mode
+![21](/img/20211123-21.jpg)
+### 創建 vlan11
+![22](/img/20211123-22.jpg)
+### server 和 client 皆不影響
+![23](/img/20211123-23.jpg)
+### 在 server 創建新的 vlan, transparent 不受影響。 
+## VTP Purning
+ 
