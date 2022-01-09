@@ -61,5 +61,3 @@ transparent: 能創建,刪除,修改vlan,不能學習轉發
 ### server 和 client 皆不影響
 ![23](/img/20211123-23.jpg)
 ### 在 server 創建新的 vlan, transparent 不受影響。 
-## VTP Purning
- 
